@@ -1,0 +1,26 @@
+# Tasks
+
+- [x] Research Project Context <!-- id: 0 -->
+    - [x] Read local user stories <!-- id: 1 -->
+    - [x] Analyze remote repository (WR-profile-optimizer) <!-- id: 2 -->
+- [x] Plan Tech Stack & Architecture <!-- id: 3 -->
+    - [x] Propose tech stack <!-- id: 4 -->
+    - [x] Define best practices <!-- id: 5 -->
+- [x] Create Implementation Plan <!-- id: 6 -->
+    - [x] Draft implementation plan <!-- id: 7 -->
+    - [x] Review with user <!-- id: 8 -->
+- [x] Phase 1: Foundation & Backend Setup <!-- id: 9 -->
+    - [x] Initialize backend structure <!-- id: 10 -->
+    - [x] Configure Docker Compose (Postgres + pgvector) <!-- id: 11 -->
+    - [x] Implement Database Schema <!-- id: 12 -->
+    - [x] Configure Clerk Auth <!-- id: 13 -->
+- [x] Phase 2: Frontend Development <!-- id: 14 -->
+    - [x] Initialize React + Vite + TypeScript <!-- id: 15 -->
+    - [x] Install dependencies (Tailwind, Clerk, React Query) <!-- id: 16 -->
+    - [x] Configure Clerk Provider <!-- id: 17 -->
+    - [x] Generate API Client <!-- id: 18 -->
+    - [x] Build UI Components <!-- id: 19 -->
+- [x] Phase 3: Integration & Verification <!-- id: 20 -->
+    - [x] Implement Backend API Endpoints <!-- id: 21 -->
+    - [x] Connect Frontend to Backend <!-- id: 22 -->
+    - [ ] Verify End-to-End Flow <!-- id: 23 -->
