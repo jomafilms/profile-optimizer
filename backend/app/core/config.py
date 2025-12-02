@@ -1,6 +1,10 @@
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Optional, List
+from pathlib import Path
+
+# Get the project root directory (two levels up from this file)
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+ENV_FILE = PROJECT_ROOT / ".env"
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "White Rabbit Profile Optimizer"
@@ -25,7 +29,7 @@ class Settings(BaseSettings):
     # AI
     ANTHROPIC_API_KEY: Optional[str] = None
 
-    model_config = SettingsConfigDict(env_file=".env", case_sensitive=True)
+    model_config = SettingsConfigDict(env_file=str(ENV_FILE), case_sensitive=True)
 
     def get_database_url(self) -> str:
         if self.DATABASE_URL:

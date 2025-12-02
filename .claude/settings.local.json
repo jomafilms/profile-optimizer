@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose up:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(uvicorn app.main:app:*)",
+      "Bash(docker exec:*)",
+      "Bash(python:*)",
+      "Bash(lsof:*)",
+      "Bash(psql:*)",
+      "Bash(curl:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
